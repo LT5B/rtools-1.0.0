@@ -9,6 +9,11 @@ red="\033[31m"
 yellow="\033[33m"
 green="\033[32m"
 
+if [ ! -d "/Applications/Roblox.app" ]; then
+    echo -e "${blue}==>${reset} ${bold}Please install Roblox first"
+    exit 1
+fi
+
 echo -e "${blue}==>${reset} ${bold}Installing ${name}...${reset}"
 
 sudo tee "/usr/local/bin/${name}" > /dev/null << 'EOS'
