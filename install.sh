@@ -210,9 +210,9 @@ case "$1" in
 
         if [[ "$2" =~ \.[iI][cC][nN][sS]$ ]]; then
             echo -e "${blue}==>${reset} ${bold}Deleting original logo...${reset}"
-            sudo rm "/Applications/Roblox.app/Resources/AppIcon.icns"
+            sudo rm "/Applications/Roblox.app/Resources/Applcon.icns"
             echo -e "${blue}==>${reset} ${bold}Copying and renaming your file...${reset}"
-            cp "$2" "/Applications/Roblox.app/Resources/AppIcon.icns"
+            cp "$2" "/Applications/Roblox.app/Resources/Applcon.icns"
         else
             echo -e "${blue}==>${reset} ${bold}Note: Only .icns files are supported. This must be the primary icon format for macOS applications.${reset}"
         fi
