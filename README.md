@@ -19,3 +19,6 @@ rtools Readme:
 
 ## Owner contact?
 - Email: engeleditorfpe@gmail.com
+
+## rtools-1.0.0.tar.gz file for what?
+- For Homebrew
